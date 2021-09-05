@@ -1,0 +1,17 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<g filter="url(#filter0_f)">
+<path d="M79.9141 48.7974C79.9141 61.4999 53.6166 77.7974 40.9141 77.7974C28.2115 77.7974 26.9141 61.4999 26.9141 48.7974C26.9141 41.8261 17.5159 27.0151 22.4143 22.7972C26.4414 19.3296 48.6828 28.2974 54.4141 28.2974C67.1166 28.2974 79.9141 36.0948 79.9141 48.7974Z" fill="#FF00C7"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="-5" y="-4" width="110.914" height="107.797" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="13" result="effect1_foregroundBlur"/>
+</filter>
+<clipPath id="clip0">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>

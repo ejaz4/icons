@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/karla/karla.woff2") format("woff2"),
+    url("fonts/karla/karla.woff2") format("woff");
+}
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/karla/karla.woff2") format("woff2"),
+    url("fonts/karla/karla.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Tabular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/tabular/tabular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tabular";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/tabular/tabular.woff2") format("woff2");
+}
+
+:root {
+  --background: url(images/background-blobs.png), black;
+  --background-dark: rgb(13, 19, 31);
+  --background-colour-flat: rgb(0, 0, 0);
+  --title-font-family: "Karla", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font-family);
+}
+
+p,
+div,
+span {
+  font-family: var(--title-font-family);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  color: white;
+  /* background: repeat center/200px url(images/noise.png),
+    center/cover
+      radial-gradient(circle at 25% 25%, #ff007aba, rgba(255, 255, 255, 0) 25%),
+    center/cover
+      radial-gradient(circle at 75% 40%, #08fba3b8, rgba(255, 255, 255, 0) 25%),
+    center/cover
+      radial-gradient(circle at 25% 105%, #8208fb, rgba(255, 255, 255, 0) 25%),
+    center/cover
+      radial-gradient(circle at 80% 115%, #d9fb08, rgba(255, 255, 255, 0) 25%);
+  /* background-size: cover; */
+  background-color: #171718;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  background: center/cover
+      radial-gradient(circle at 25% 25%, #ff007aba, rgba(255, 255, 255, 0) 25%),
+    center/cover
+      radial-gradient(circle at 75% 40%, #08fba3b8, rgba(255, 255, 255, 0) 25%),
+    center/cover
+      radial-gradient(circle at 25% 105%, #8208fb, rgba(255, 255, 255, 0) 25%),
+    center/cover
+      radial-gradient(circle at 80% 115%, #d9fb08, rgba(255, 255, 255, 0) 25%);
+  /* background-size: cover; */
+  background-color: #171718;
+  filter: blur(6000px);
+}
+
+.noise {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background: repeat center/200px url(images/noise.png);
+  opacity: 0.2;
+}
+
+@media only screen and (max-width: 728px) {
+  .content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (min-width: 729px) {
+  .content {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+code {
+  font-family: "Tabular";
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 728px) {
+  .headerInner {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 729px) {
+  .headerInner {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.headerInner * {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header {
+  margin-bottom: 30px;
+}

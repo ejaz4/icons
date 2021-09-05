@@ -1,0 +1,48 @@
+@media only screen and (max-width: 728px) {
+}
+
+@media only screen and (min-width: 729px) {
+}
+
+.iconBox {
+  margin-top: 100px;
+  bottom: 0px;
+  height: calc(100vh - 489px);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0px 0px 57px 14px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.iconViewBox {
+  height: 130px;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: solid 2px #2c2c2c;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+}
+
+.iconViewBoxView {
+  width: 130px;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.iconViewBoxRs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+  overflow: auto;
+}
+
+.iconViewBoxRs::after {
+  content: "";
+  flex: auto;
+}

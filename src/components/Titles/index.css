@@ -1,0 +1,70 @@
+.title-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-box h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.title-box p {
+  max-width: 300px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.title-box-version {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 2px rgba(84, 84, 84, 0.5);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.title-mono-box {
+  width: 300px;
+  min-width: fit-content;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+[data-tooltip]::before {
+  content: attr(data-tooltip);
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.copy-button {
+  fill: white;
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1);
+  transition: opacity 0.1s ease, transform 0.3s ease;
+}
+
+.copy-button:hover {
+  opacity: 0.5;
+}
+
+.copy-button:active {
+  opacity: 0.75;
+  transform: scale(0.75);
+}
