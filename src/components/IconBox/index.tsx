@@ -5,9 +5,11 @@ import manifest from '../../manifest';
 
 const IconBox = (args: any) => {
     return (
-        <div className="iconBox" {...args}>
-            <IconViewBox />
-            <IconViewBoxRs />
+        <div className="iconBoxOuter">
+            <div className="iconBox" {...args}>
+                <IconViewBox />
+                <IconViewBoxRs />
+            </div>
         </div>
     )
 }
