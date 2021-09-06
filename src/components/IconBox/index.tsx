@@ -36,7 +36,7 @@ const IconViewBoxLs = (args: any) => {
 const IconViewBoxRs = (args: any) => {
     return (
         <div className="iconViewBoxRs">
-            {manifest.map((X: any) => ( <X style={{stroke: "white !important"}} fill="white"/> ))}
+            {manifest.map((X: any) => ( <X style={{stroke: "white"}} fill="white"/> ))}
         </div>
     )
 }
