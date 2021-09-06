@@ -86,7 +86,7 @@ body {
       radial-gradient(circle at 80% 115%, #d9fb08, rgba(255, 255, 255, 0) 25%);
   /* background-size: cover; */
   background-color: #171718;
-  filter: blur(6000px);
+  filter: blur(100px);
 }
 
 .noise {

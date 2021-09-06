@@ -4,6 +4,7 @@ import manifest from '../../manifest';
 
 
 const IconBox = (args: any) => {
+    console.log(args.currentic)
     return (
         <div className="iconBoxOuter">
             <div className="iconBox" {...args}>
@@ -36,7 +37,7 @@ const IconViewBoxLs = (args: any) => {
 const IconViewBoxRs = (args: any) => {
     return (
         <div className="iconViewBoxRs">
-            {manifest.map((X: any) => ( <X style={{stroke: "white"}} fill="white"/> ))}
+            {manifest.map((X: any) => ( <X className="icon" style={{stroke: "white"}} fill="white"/> ))}
         </div>
     )
 }

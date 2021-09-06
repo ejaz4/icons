@@ -61,13 +61,33 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: flex-start;
-  gap: 30px;
+  gap: 10px;
   padding: 30px;
   overflow: auto;
   transition: all 0.3s ease;
+  scrollbar-width: thin;
 }
 
 .iconViewBoxRs::after {
   content: "";
   flex: auto;
+}
+
+.icon {
+  padding: 10px;
+  border: solid 2px rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  transform: scale(1);
+  transition: transform 0.1s ease, background-color 0.2s ease, border 0.1s ease;
+}
+
+.icon:hover {
+  border: solid 2px #2c2c2c;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.icon:active {
+  transform: scale(0.9);
+  border: solid 2px transparent;
+  background-color: transparent;
 }
