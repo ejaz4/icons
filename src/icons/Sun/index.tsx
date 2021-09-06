@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sun = (args: any) => {
     return (
-		<svg width="16" height="16" viewBox="0 0 16 16" {...args}>
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" {...args}>
 			<path d="M9 2C9 2.55228 8.55228 3 8 3C7.44771 3 7 2.55228 7 2V1C7 0.447715 7.44771 0 8 0C8.55228 0 9 0.447715 9 1V2Z"></path>
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12ZM8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z"></path>
 			<path d="M8 13C8.55228 13 9 13.4477 9 14V15C9 15.5523 8.55228 16 8 16C7.44771 16 7 15.5523 7 15V14C7 13.4477 7.44771 13 8 13Z"></path>

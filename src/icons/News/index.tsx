@@ -2,7 +2,7 @@ import React from 'react';
 
 const News = (args: any) => {
     return (
-		<svg width="16" height="16" viewBox="0 0 16 16" {...args}>
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" {...args}>
 			<path d="M6 5C6 4.44772 6.44771 4 7 4H10C10.5523 4 11 4.44772 11 5C11 5.55228 10.5523 6 10 6H7C6.44771 6 6 5.55228 6 5Z"></path>
 			<path d="M3 5C3 4.44772 3.44771 4 4 4C4.55229 4 5 4.44772 5 5C5 5.55228 4.55229 6 4 6C3.44771 6 3 5.55228 3 5Z"></path>
 			<path d="M4 7C3.44771 7 3 7.44772 3 8C3 8.55228 3.44771 9 4 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H4Z"></path>

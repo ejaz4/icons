@@ -2,7 +2,7 @@ import React from 'react';
 
 const Biscuit = (args: any) => {
     return (
-		<svg width="16" height="16" viewBox="0 0 16 16" {...args}>
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" {...args}>
 			<path d="M5 5C5 4.44772 5.44772 4 6 4C6.55228 4 7 4.44772 7 5C7 5.55228 6.55228 6 6 6C5.44772 6 5 5.55228 5 5Z"></path>
 			<path d="M9 5C9 4.44772 9.44771 4 10 4C10.5523 4 11 4.44772 11 5C11 5.55228 10.5523 6 10 6C9.44771 6 9 5.55228 9 5Z"></path>
 			<path d="M7 8C7 7.44772 7.44772 7 8 7C8.55229 7 9 7.44772 9 8C9 8.55229 8.55229 9 8 9C7.44772 9 7 8.55229 7 8Z"></path>

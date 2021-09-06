@@ -2,7 +2,7 @@ import React from 'react';
 
 const Calculator = (args: any) => {
     return (
-		<svg width="16" height="16" viewBox="0 0 16 16" {...args}>
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" {...args}>
 			<path d="M5 3C4.44771 3 4 3.44772 4 4V6C4 6.55228 4.44771 7 5 7H11C11.5523 7 12 6.55228 12 6V4C12 3.44772 11.5523 3 11 3H5Z"></path>
 			<path d="M4 9C4 8.44771 4.44771 8 5 8C5.55229 8 6 8.44771 6 9C6 9.55229 5.55229 10 5 10C4.44771 10 4 9.55229 4 9Z"></path>
 			<path d="M7 9C7 8.44771 7.44771 8 8 8C8.55228 8 9 8.44771 9 9C9 9.55229 8.55228 10 8 10C7.44771 10 7 9.55229 7 9Z"></path>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const BulletList = (args: any) => {
     return (
-		<svg width="16" height="16" viewBox="0 0 16 16" {...args}>
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" {...args}>
 			<path d="M2 6C3.10457 6 4 5.10457 4 4C4 2.89543 3.10457 2 2 2C0.895431 2 0 2.89543 0 4C0 5.10457 0.895431 6 2 6Z"></path>
 			<path d="M2 14C3.10457 14 4 13.1046 4 12C4 10.8954 3.10457 10 2 10C0.895431 10 0 10.8954 0 12C0 13.1046 0.895431 14 2 14Z"></path>
 			<path d="M6 4C6 3.44772 6.44771 3 7 3H15C15.5523 3 16 3.44772 16 4C16 4.55228 15.5523 5 15 5H7C6.44772 5 6 4.55228 6 4Z"></path>
